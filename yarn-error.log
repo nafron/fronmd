@@ -1,5 +1,5 @@
 Arguments: 
-  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js add heroku
 
 PATH: 
   /data/data/com.termux/files/usr/bin
@@ -14,7 +14,7 @@ Platform:
   android arm64
 
 Trace: 
-  Error: ENOENT: no such file or directory, copyfile '/data/data/com.termux/files/home/.cache/yarn/v6/npm-lodash-4.17.21-679591c564c3bffaae8454cf0b3df370c3d6911c-integrity/node_modules/lodash/isArray.js' -> '/storage/emulated/0/fronbot1/node_modules/lodash/isArray.js'
+  Error: EPERM: operation not permitted, symlink '../../../../pino/bin.js' -> '/storage/emulated/0/fronbot1/node_modules/@adiwajshing/baileys/node_modules/.bin/pino'
 
 npm manifest: 
   {
