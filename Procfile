@@ -1,1 +1,1 @@
-worker: node . --db 'mongodb+srv://DineshValor:4972@valor-whatsapp-bot-md.vn0pr.mongodb.net/Valor-Whatsapp-Bot-Md?retryWrites=true&w=majority' --autocleartmp && npm i pm2 -g && pm2 install ffmpeg && pm2 start index.js && pm2 save && pm2 logs
+worker: npm i && npm i pm2 -g && pm2 install ffmpeg && pm2 start index.js && pm2 save && pm2 logs
